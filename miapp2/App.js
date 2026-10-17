@@ -9,7 +9,7 @@ import { Perfil } from './components/Perfil';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hola Mundo React Native</Text>
+      {/* <Text>Hola Mundo React Native</Text>
       <Image source={require('./assets/manita.png')}></Image>
 
         <Text> _________________________ </Text>
@@ -20,9 +20,14 @@ export default function App() {
         <Saludo2></Saludo2>
         <Saludo2/>
 
-        <Text> _________________________ </Text>
-        <Perfil></Perfil>
-        <Perfil/> 
+        <Text> _________________________ </Text> */}
+        <Perfil nombre= "Ale" carrera= "ITIID" materia= "Movil" cuatri= "4"/>
+
+        <Perfil nombre= "Oscar" carrera= "ITIID" materia= "Movil" cuatri= "4"/>
+
+        <Perfil nombre= "Danilo" carrera= "ITIID" materia= "Movil" cuatri= "4"/>
+
+
       <StatusBar style="auto" />
     </View>
   );
