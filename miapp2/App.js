@@ -1,34 +1,15 @@
 /*1. Zona Importaciones*/
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
-import { Saludo } from './components/Saludo';
-import { Saludo2 } from './components/Saludo2';
-import { Perfil } from './components/Perfil';
+import { StyleSheet, View} from 'react-native';
+import MenuScreen from './screens/MenuScreen';
+
 
 /*2. Zona Render o main*/
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>Hola Mundo React Native</Text>
-      <Image source={require('./assets/manita.png')}></Image>
+      
+      <MenuScreen></MenuScreen>
 
-        <Text> _________________________ </Text>
-        <Saludo></Saludo>
-        <Saludo/>
-
-        <Text> _________________________ </Text>
-        <Saludo2></Saludo2>
-        <Saludo2/>
-
-        <Text> _________________________ </Text> */}
-        <Perfil nombre= "Ale" carrera= "ITIID" materia= "Movil" cuatri= "4"/>
-
-        <Perfil nombre= "Oscar" carrera= "ITIID" materia= "Movil" cuatri= "4"/>
-
-        <Perfil nombre= "Danilo" carrera= "ITIID" materia= "Movil" cuatri= "4"/>
-
-
-      <StatusBar style="auto" />
     </View>
   );
 }
