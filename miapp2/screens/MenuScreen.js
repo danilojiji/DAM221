@@ -51,7 +51,7 @@ export default function MenuScreen() {
         <Button title= "Pract: ImageBackgroung & SlapshScreen" onPress={() => setScreen('imagebackground')}/> 
         <Button title= "Pract: Modal & Bottom sheet" onPress={() => setScreen('modal')}/>
         <Button title= "Pract: ActivityIndicator, KeyboardAvoidingView" onPress={() => setScreen('activityindicator')}/> 
-        <Button title="Pract: Pressable" onPress={() => setScreen('pressable')} />
+        <Button title= "Pract: Pressable" onPress={() => setScreen('pressable')} />
 
 
     </View>
